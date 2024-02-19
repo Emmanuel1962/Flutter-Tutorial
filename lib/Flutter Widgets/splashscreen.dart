@@ -13,7 +13,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    // this for any action you want to happen when you enter a scrren
+    // this for any action you want to happen when you enter a scrren (init)
     super.initState();
     Timer(const Duration(seconds: 5), () {
       var route = MaterialPageRoute(
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
               height: 10,
             ),
             CircularProgressIndicator(
-              color: Colors.blue,
+              color: Colors.blue, //this is the circuluar rotation when loading
             ),
           ],
         ),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/Flutter%20Widgets/alert_dialog.dart';
+import 'package:flutter_tutorial/Flutter%20Widgets/api_fetch.dart';
+import 'package:flutter_tutorial/Flutter%20Widgets/api_post.dart';
 import 'package:flutter_tutorial/Flutter%20Widgets/bottomnavclass.dart';
 import 'package:flutter_tutorial/Flutter%20Widgets/carousel_class.dart';
 import 'package:flutter_tutorial/Flutter%20Widgets/forms.dart';
@@ -27,6 +29,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const SplashScreen());
+        home: const ApiFetch());
   }
 }

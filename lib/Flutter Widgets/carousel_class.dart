@@ -34,7 +34,7 @@ class _CarouselClassState extends State<CarouselClass> {
             carouselController: carouselController,
             items: imgList.map(
               (images) {
-                // this handle that loop through your list above. it can be called anything . But make sure you use it where ever its needed
+                // this handles that loop through your list above. it can be called anything . But make sure you use it where ever its needed
                 return Container(
                   width: MediaQuery.of(context).size.width,
                   margin: const EdgeInsets.symmetric(horizontal: 5.0),
