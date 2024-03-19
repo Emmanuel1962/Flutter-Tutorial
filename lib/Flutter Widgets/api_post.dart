@@ -92,7 +92,7 @@ class _ApiPostState extends State<ApiPost> {
                       }
                     },
                     color: Colors.blue,
-                    child: const Text('Resgister'),
+                    child: const Text('Register'),
                   )
                 ],
               )),

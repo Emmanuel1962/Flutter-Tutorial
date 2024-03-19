@@ -37,7 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             Image.asset(
                 'assets/images/Screenshot (34).png'), // this gotten from asssets(image from my system)
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             CircularProgressIndicator(

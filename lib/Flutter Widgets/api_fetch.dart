@@ -68,8 +68,8 @@ class _ApiFetchState extends State<ApiFetch> {
                     itemCount: data!['data'].length,
                     itemBuilder: (context, index) {
                       return singleUser(
-                        User.fromJson(data['data']
-                            [index]), // 'data is from the net ( like the body )
+                        User.fromJson(data['data'][
+                            index]), // 'data' is from the net ( like the body )
                         // The User is  from the model api
                       );
                     });
